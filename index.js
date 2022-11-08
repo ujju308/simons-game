@@ -64,7 +64,7 @@ function startOver(){
 }
 
 function playSound(name){
-  var audio = new Audio("https://github.com/ujju308/simons-game/raw/main/sounds/"+name".mp3");
+  var audio = new Audio("https://github.com/ujju308/simons-game/raw/main/sounds/"+ name +".mp3");
   audio.play();
 }
 function animatePress(currentColor) {
